@@ -1,0 +1,14 @@
+services:
+  hexo:
+    build:
+      context: .
+      args:
+        USER_ID: ${USER_ID}
+        GROUP_ID: ${GROUP_ID}
+    user: "${USER_ID}:${GROUP_ID}" 
+    volumes:
+      - ./site:/app
+    ports:
+      - "4000:4000"
+    stdin_open: true
+    tty: true
