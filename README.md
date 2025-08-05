@@ -18,6 +18,7 @@ git clone https://github.com/Neaje/docker-hexo-dev.git && cd docker-hexo-dev
 From now, you can Initialize your hexo site : 
 
 ```bash
+mkdir site
 docker compose run --rm hexo hexo init .
 docker compose run --rm hexo npm install
 ```
