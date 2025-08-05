@@ -12,7 +12,7 @@ This project is based on docker, so you obviously need [Docker](https://docs.doc
 Start by clonning the project with the following command : 
 
 ```bash
-git clone https://github.com/Neaje/Docker-Hexo-Dev.git && cd docker-hexo-dev
+git clone https://github.com/Neaje/docker-hexo-dev.git && cd docker-hexo-dev
 ```
 
 From now, you can Initialize your hexo site : 
